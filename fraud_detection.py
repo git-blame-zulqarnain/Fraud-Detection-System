@@ -9,7 +9,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 from imblearn.over_sampling import SMOTE
 
-
 path =os.path.join("dataset","creditcard.csv")
 df=pd.read_csv(path)
 
